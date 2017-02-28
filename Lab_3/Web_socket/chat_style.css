@@ -1,0 +1,43 @@
+#chat{
+  height: 25em;
+  background: #b7b7b7;
+  margin: 1em auto;
+  overflow-y: scroll;
+  border: 0.5em solid #2d2d2d;
+  border-radius: 0;
+}
+
+#form{
+  justify-content: center;
+  text-align: center;
+}
+
+
+input[type=text] {
+    width: 25%;
+    box-sizing: border-box;
+    border: 0.2em solid #ccc;
+    border-radius: 0em;
+    font-size: 1em;
+    background-color: white;
+    padding: 1em 2em 1em 2em;
+}
+
+.button {
+  display: inline-block;
+  padding: 1em 8.7em;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 0em;
+
+}
+
+.button:hover {
+    background-color: #3e8e41
+}

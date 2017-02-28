@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Element</title>
+  <link rel="stylesheet" href="audio.css">
+
+</head>
+
+<body>
+    <div id="container">
+      <audio src="http://stream.basso.fi:8000/stream" id="music"></audio>
+      <input type="range" min="0" max="5" step="0.5" defaultValue="2" id="volume"><br>
+      <button onclick="playStream()">Play</button>
+      <button onclick="stopStream()">Stop</button>
+    </div>
+    <script src="audio.js"></script>
+</body>
+
+</html>
